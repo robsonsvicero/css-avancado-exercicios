@@ -1,0 +1,53 @@
+/*isso passa o valor de em de 16px para 10px*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 12px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    margin-left: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.menu li a.btn {
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 0.75rem;
+    margin-left: 1rem;
+    padding: 10px 20px;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.card .informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .information img {
+    margin-top: 20px;
+}
+
+.card .profile-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.card .informations p,
+.profile-numbers .info .counter {
+    font-weight: 700;
+}
+
+.card .informations .age,
+.card .informations .city,
+.profile-numbers .info .counter-type {
+    color: var(--text-color);
+}

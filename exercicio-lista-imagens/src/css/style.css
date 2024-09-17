@@ -1,0 +1,44 @@
+html {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.galery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galery .picture {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.galery .picture img {
+    width: 100%;
+}
+
+.galery .picture .info {
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 44px;
+    left: 20px;
+}
+
+.galery .picture .info .title {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.galery .picture .info .description {
+    font-size: 18px;
+    font-weight: 300;
+}

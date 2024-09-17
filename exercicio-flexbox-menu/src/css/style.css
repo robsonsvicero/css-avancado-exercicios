@@ -19,12 +19,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
 .logo h2 {
     font-size: 2rem;
     font-weight: 800;
-    margin-left: 12px;
 }
 
 .menu {
@@ -47,7 +47,7 @@ body {
 .menu li a.btn {
     background-color: var(--green);
     color: var(--white);
-    border-radius: 0.75rem;
+    border-radius: 1rem;
     margin-left: 1rem;
     padding: 10px 20px;
 }

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    grid-gap: 17px;
+    padding: 38px 35px;
+    background-color: #F7F7F7;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container .informacoes .titulo{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 12px;
+}
+
+.container .informacoes .visualizacoes {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 7px;
+}
+
+.container .informacoes .descricao {
+    font-weight: 300;
+    margin-top: 9px;
+}
+
+.barra-lateral .sugestoes .sugestao {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+/* .barra-lateral .sugestao {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 4px;
+    margin-bottom: 16px;
+} */
+
+.barra-lateral .sugestao:first-child {
+    margin-top: 20px;
+}
+
+.barra-lateral .sugestao .informacao {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.barra-lateral .sugestao .informacao .titulo {
+    font-size: 14px;
+    font-weight: bold;
+}
